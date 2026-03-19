@@ -2,20 +2,30 @@
 node_modules/
 jspm_packages/
 
-# Playwright specific
+# Playwright State & Cache
+# We ignore the entire playwright/ and .playwright/ directories 
+# because they contain heavy browser binaries and local state.
+playwright/
+.playwright/
+.playwright-cli/
+.playwright-auth/
 test-results/
 playwright-report/
 blob-report/
-playwright/.cache/
-playwright/.auth/
-.playwright-cli/
 
-# Artifacts
+# AI & Tooling state
+.claude/
+.gemini/
+.anthropic/
+
+# Test Artifacts
+# These are generated during runs and should not be versioned.
 videos/
 screenshots/
 traces/
 
 # Environment and Secrets
+# Storing credentials here is common for local sites on Port 3000.
 .env
 .env.local
 .env.*.local
