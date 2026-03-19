@@ -1,0 +1,40 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DUNCAN SAFE APP" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: DUNCAN SAFE APP
+      - generic [ref=e8]:
+        - link "Product List" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Watch List" [ref=e10] [cursor=pointer]:
+          - /url: /watchlist
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - heading "Add Product" [level=1] [ref=e14]
+      - separator [ref=e15]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: Manufacturer
+          - textbox [ref=e21]
+        - generic [ref=e22]:
+          - generic [ref=e23]: Model
+          - textbox [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e26]: Price
+          - spinbutton [ref=e27]
+        - generic [ref=e28]:
+          - generic [ref=e29]: Number In Stock
+          - spinbutton [ref=e30]
+        - button "Add" [ref=e32] [cursor=pointer]
+      - link "Back to List" [ref=e34] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e35]:
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - text: © 2026 Duncan Safe App -
+        - link "Contact" [ref=e38] [cursor=pointer]:
+          - /url: /contact
+      - button "Light Mode" [ref=e40] [cursor=pointer]
